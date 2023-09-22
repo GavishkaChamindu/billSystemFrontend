@@ -1,0 +1,111 @@
+body
+
+{
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqoxWD5GnUJe4Iw0KDVoA8LHUPf5FVftAbQRX1wOqwonSKxELRbSaX40iB5nA7j3m-mBo&usqp=CAU");  
+    background-size: cover;
+}
+
+
+
+.customer{
+
+}
+.contains{
+    justify-content: center;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.img{
+   
+}
+.ceb-img{
+    width: 100px;
+    height: 100px;
+}
+
+.span{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+    font-weight: 100;
+}
+
+.ceb{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+
+
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register{
+    font-size: 24px;
+    color: #fd3995;
+    font-weight: bold;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c-down{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+
+
+.ac-no{
+    margin: 10px;
+    display: flex;
+
+   
+   
+}
+
+.icon-border{
+    background-color: #d7d9da;
+    border: 1px solid gray;
+}
+
+.icon{
+   
+    
+
+}
+
+.r-icon{
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.account{
+
+width: 100%;
+}
