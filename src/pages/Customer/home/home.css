@@ -1,0 +1,63 @@
+body{
+    background: url("https://www.ceb.lk//front_img/img_banners/16015293813.png");
+
+}
+
+.he, .he-2{
+    color: yellow;
+
+}
+
+
+
+
+.col{
+display: flex;
+gap: 30px;
+
+
+}
+
+.reader{
+   
+}
+
+
+
+
+.customer , .reader{
+    display: flex;
+    width: 20%;
+    gap: 10px;
+ 
+  
+
+   
+    
+
+}
+
+.customer ,.reader{
+    border: 1px solid rgb(244, 238, 238);
+    background-color: rgba(0, 0, 0, 0.65);
+    
+   
+
+}
+
+
+
+.reader-img{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.customer-h{
+    color: white;
+}

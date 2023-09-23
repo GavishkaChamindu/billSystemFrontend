@@ -4,6 +4,7 @@ body
 
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqoxWD5GnUJe4Iw0KDVoA8LHUPf5FVftAbQRX1wOqwonSKxELRbSaX40iB5nA7j3m-mBo&usqp=CAU");  
     background-size: cover;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
 }
 
 
@@ -41,10 +42,24 @@ align-items: center;
 
 
 
+
+
+
+
+
 .center{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+}
+
+.contains-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
 }
 
 .register{
@@ -77,15 +92,33 @@ align-items: center;
 
 
 .c-down{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+width: 40%;
+
+
+
+
+}
+
+
 
 
 .ac-no{
-    margin: 10px;
+
     display: flex;
+    width: 80%;
 
    
    
+}
+
+.up-title{
+    color: #212529;
+    font-weight: 600;
+    font-size: 14px;
+
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
 }
 
 .icon-border{
@@ -108,4 +141,74 @@ align-items: center;
 .account{
 
 width: 100%;
+
+}
+
+input.account::placeholder {
+    margin-left: 50px;
+ 
+   
+  }
+
+
+
+
+
+
+
+
+
+.user-name, .date , .value{
+    display: flex;
+    width: 80%;
+}
+
+
+
+
+
+
+
+.save{
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1dc9b7;
+border-radius: 10px;
+width: 100px;
+height: 50px;
+cursor: pointer;
+}
+
+.icon-b{
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+  
+    
+   
+}
+
+.save-btn{
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: #1dc9b7;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+.star{
+    color: #fd3995;
+}
+
+
+
+.red-border{
+border: 1px solid red;
 }
