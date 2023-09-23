@@ -1,0 +1,104 @@
+body{
+
+    font-family: "Poppins",sans-serif!important;
+}.details{
+    display: flex;
+    width: 50%;
+    margin-left: 50px;
+    
+}
+
+.d-left{
+  
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.d-l-up{
+    width: 100%;
+    
+}
+
+.acc-no{
+    width: 80%;
+    margin: 10px;
+    height: 50px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 5px;
+
+
+
+}
+
+.proceed{
+   
+    width: 100%;
+   margin-right: 20px;
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+}
+
+.p-r{
+    
+  
+}
+
+.proceed-btn{
+    background-color: #720f11;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+  cursor: pointer;
+    font-size: 18px;
+   
+  
+}
+
+
+
+
+
+
+
+
+
+.d-right{
+    display: flex;
+    flex:1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bill-details-show{
+    color: #f94245;
+}
+
+.list-titles{
+
+    color: #3b647e;
+    font-size: 14px;
+}
+
+.na{
+    font-weight: bold;
+    font-size: 18px;
+    color: #3b647e;  
+}
